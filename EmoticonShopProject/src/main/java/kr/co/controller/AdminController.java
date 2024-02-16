@@ -40,8 +40,8 @@ public class AdminController {
 	private ProductService service;
 	@Inject
 	private MemberService mservice;
-	private static final String IMAGE_REPO = "C:\\himediaspring\\EmoticonShopProject\\src\\main\\webapp\\resources\\preview";
-	private static final String IMAGES_REPO = "C:\\himediaspring\\EmoticonShopProject\\src\\main\\webapp\\resources\\emoticons";
+	private static final String IMAGE_REPO = "C:\\Users\\115\\git\\web4\\EmoticonShopProject\\src\\main\\webapp\\resources\\preview";
+	private static final String IMAGES_REPO = "C:\\Users\\115\\git\\web4\\EmoticonShopProject\\src\\main\\webapp\\resources\\emoticons";
 	
 	@GetMapping("")
 	public String adminMain(Model model) throws Exception {

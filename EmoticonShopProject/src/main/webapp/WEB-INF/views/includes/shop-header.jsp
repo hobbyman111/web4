@@ -113,7 +113,7 @@
 								class="tf-ion-ios-search-strong"></i>&nbsp;Search</a>
 						<ul class="dropdown-menu search-dropdown">
 							<li>
-								<form action="post"><input type="search" class="form-control" placeholder="이모티콘 검색"></form>
+								<form action="/shop/search"><input type="search" class="form-control" placeholder="이모티콘 검색" name="keyword"></form>
 							</li>
 						</ul>
 					</li><!-- / Search -->

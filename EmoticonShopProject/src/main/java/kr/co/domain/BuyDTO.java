@@ -11,5 +11,6 @@ public class BuyDTO {
 	private String p_price; //  구매한 상품가격
 	private String p_image; // 구매한 상품이미지명
 	private String b_regdate; // 구매일자
+	private String bb_a;
 
 }

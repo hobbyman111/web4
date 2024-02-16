@@ -1,5 +1,7 @@
 package kr.co.controller;
 
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -66,5 +68,14 @@ public class ShopController {
 			return "./shop/";
 		}
 	}
+	
+	@GetMapping("/search")
+	public String searchImot(@RequestParam("keyword") String keyword, Model model) {
+		log.info("search imoticon...");
+		List<ProductDTO> product = pservice.searchGet(keyword);
+		model.addAttribute("product", product);
+		return "./shop/search";
+	}
+	
 	
 }

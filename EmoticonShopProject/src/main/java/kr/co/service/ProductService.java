@@ -7,6 +7,7 @@ import kr.co.domain.ProductDTO;
 public interface ProductService {
 	public abstract void register(ProductDTO product);
 	public abstract ProductDTO get(Long p_no);
+	public abstract List<ProductDTO> searchGet(String keyword);
 	public abstract boolean modify(ProductDTO product);
 	public abstract boolean remove(Long p_no);
 	public abstract List<ProductDTO> getList();
