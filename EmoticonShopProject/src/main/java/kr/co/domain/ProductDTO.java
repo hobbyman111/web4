@@ -15,5 +15,6 @@ public class ProductDTO {
 	private String p_regdate; // 상품등록일
 	private int p_readcount; //  상품조회수
 	private String p_etc; // 기타사항
+	private String keyword;
 
 }

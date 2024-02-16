@@ -53,7 +53,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="detail_mainwrap">
-					<img alt="이모티콘" class="detail_mainimg" src="../resources/preview/<c:out value='${product.p_image}'/>">
+					<img alt="이모티콘" class="" src="../resources/preview/<c:out value='${product.p_image}'/>" width="150px" height="150px">
 				</div>
 				<div class="detail_main">
 					<h1 class="detail_h3"><c:out value="${product.p_name}"/></h1>

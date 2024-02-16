@@ -7,6 +7,7 @@ import kr.co.domain.UploadDTO;
 
 public interface ProductMapper {
 	public abstract ProductDTO read(Long p_no);
+	public abstract List<ProductDTO> searchGet(String keyword);
 	public abstract List<ProductDTO> getList();
 	public abstract void insert(ProductDTO product);
 	public abstract void insertSelectKey(ProductDTO product);

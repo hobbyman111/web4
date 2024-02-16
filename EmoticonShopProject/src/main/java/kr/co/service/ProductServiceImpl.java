@@ -76,4 +76,10 @@ public class ProductServiceImpl implements ProductService {
 		return mapper.readCountDescList();
 	}
 
+	@Override
+	public List<ProductDTO> searchGet(String keyword) {
+		log.info("search..." + keyword);
+		return mapper.searchGet(keyword);
+	}
+
 }
